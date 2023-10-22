@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F626452AE516EF00EFACA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626442AE516EF00EFACA0 /* AppDelegate.swift */; };
+		D0F626472AE516EF00EFACA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626462AE516EF00EFACA0 /* SceneDelegate.swift */; };
+		D0F626492AE516EF00EFACA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626482AE516EF00EFACA0 /* ViewController.swift */; };
+		D0F6264C2AE516EF00EFACA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F6264A2AE516EF00EFACA0 /* Main.storyboard */; };
+		D0F6264E2AE516F100EFACA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F6264D2AE516F100EFACA0 /* Assets.xcassets */; };
+		D0F626512AE516F100EFACA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F6264F2AE516F100EFACA0 /* LaunchScreen.storyboard */; };
+		D0F6265C2AE516F100EFACA0 /* TwinkleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6265B2AE516F100EFACA0 /* TwinkleAppTests.swift */; };
+		D0F626662AE516F100EFACA0 /* TwinkleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626652AE516F100EFACA0 /* TwinkleAppUITests.swift */; };
+		D0F626682AE516F100EFACA0 /* TwinkleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626672AE516F100EFACA0 /* TwinkleAppUITestsLaunchTests.swift */; };
+		D0F626762AE518CF00EFACA0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D0F626752AE518CF00EFACA0 /* FirebaseAuth */; };
+		D0F626782AE518CF00EFACA0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D0F626772AE518CF00EFACA0 /* FirebaseDatabase */; };
+		D0F6267A2AE518CF00EFACA0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0F626792AE518CF00EFACA0 /* FirebaseFirestore */; };
+		D0F6267C2AE518CF00EFACA0 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D0F6267B2AE518CF00EFACA0 /* FirebaseInAppMessaging-Beta */; };
+		D0F6267E2AE518CF00EFACA0 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D0F6267D2AE518CF00EFACA0 /* FirebaseInAppMessagingSwift-Beta */; };
+		D0F626802AE518CF00EFACA0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D0F6267F2AE518CF00EFACA0 /* FirebaseStorage */; };
+		D0F626832AE5191100EFACA0 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = D0F626822AE5191100EFACA0 /* TinyConstraints */; };
+		D0F626872AE51F0200EFACA0 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D0F626862AE51F0200EFACA0 /* Readme.md */; };
+		D0F626892AE555B100EFACA0 /* LoginwithVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F626882AE555B100EFACA0 /* LoginwithVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F626582AE516F100EFACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F626392AE516EF00EFACA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F626402AE516EF00EFACA0;
+			remoteInfo = TwinkleApp;
+		};
+		D0F626622AE516F100EFACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F626392AE516EF00EFACA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F626402AE516EF00EFACA0;
+			remoteInfo = TwinkleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F626412AE516EF00EFACA0 /* TwinkleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwinkleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F626442AE516EF00EFACA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0F626462AE516EF00EFACA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0F626482AE516EF00EFACA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0F6264B2AE516EF00EFACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F6264D2AE516F100EFACA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F626502AE516F100EFACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F626522AE516F100EFACA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F626572AE516F100EFACA0 /* TwinkleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinkleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F6265B2AE516F100EFACA0 /* TwinkleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinkleAppTests.swift; sourceTree = "<group>"; };
+		D0F626612AE516F100EFACA0 /* TwinkleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinkleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F626652AE516F100EFACA0 /* TwinkleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinkleAppUITests.swift; sourceTree = "<group>"; };
+		D0F626672AE516F100EFACA0 /* TwinkleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinkleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0F626862AE51F0200EFACA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		D0F626882AE555B100EFACA0 /* LoginwithVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginwithVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F6263E2AE516EF00EFACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F626832AE5191100EFACA0 /* TinyConstraints in Frameworks */,
+				D0F626782AE518CF00EFACA0 /* FirebaseDatabase in Frameworks */,
+				D0F626762AE518CF00EFACA0 /* FirebaseAuth in Frameworks */,
+				D0F6267E2AE518CF00EFACA0 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				D0F6267A2AE518CF00EFACA0 /* FirebaseFirestore in Frameworks */,
+				D0F6267C2AE518CF00EFACA0 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				D0F626802AE518CF00EFACA0 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F626542AE516F100EFACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F6265E2AE516F100EFACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F626382AE516EF00EFACA0 = {
+			isa = PBXGroup;
+			children = (
+				D0F626862AE51F0200EFACA0 /* Readme.md */,
+				D0F626432AE516EF00EFACA0 /* TwinkleApp */,
+				D0F6265A2AE516F100EFACA0 /* TwinkleAppTests */,
+				D0F626642AE516F100EFACA0 /* TwinkleAppUITests */,
+				D0F626422AE516EF00EFACA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F626422AE516EF00EFACA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F626412AE516EF00EFACA0 /* TwinkleApp.app */,
+				D0F626572AE516F100EFACA0 /* TwinkleAppTests.xctest */,
+				D0F626612AE516F100EFACA0 /* TwinkleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F626432AE516EF00EFACA0 /* TwinkleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D0F626442AE516EF00EFACA0 /* AppDelegate.swift */,
+				D0F626462AE516EF00EFACA0 /* SceneDelegate.swift */,
+				D0F626482AE516EF00EFACA0 /* ViewController.swift */,
+				D0F626882AE555B100EFACA0 /* LoginwithVC.swift */,
+				D0F6264A2AE516EF00EFACA0 /* Main.storyboard */,
+				D0F6264D2AE516F100EFACA0 /* Assets.xcassets */,
+				D0F6264F2AE516F100EFACA0 /* LaunchScreen.storyboard */,
+				D0F626522AE516F100EFACA0 /* Info.plist */,
+			);
+			path = TwinkleApp;
+			sourceTree = "<group>";
+		};
+		D0F6265A2AE516F100EFACA0 /* TwinkleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F6265B2AE516F100EFACA0 /* TwinkleAppTests.swift */,
+			);
+			path = TwinkleAppTests;
+			sourceTree = "<group>";
+		};
+		D0F626642AE516F100EFACA0 /* TwinkleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F626652AE516F100EFACA0 /* TwinkleAppUITests.swift */,
+				D0F626672AE516F100EFACA0 /* TwinkleAppUITestsLaunchTests.swift */,
+			);
+			path = TwinkleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F626402AE516EF00EFACA0 /* TwinkleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F6266B2AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleApp" */;
+			buildPhases = (
+				D0F6263D2AE516EF00EFACA0 /* Sources */,
+				D0F6263E2AE516EF00EFACA0 /* Frameworks */,
+				D0F6263F2AE516EF00EFACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwinkleApp;
+			packageProductDependencies = (
+				D0F626752AE518CF00EFACA0 /* FirebaseAuth */,
+				D0F626772AE518CF00EFACA0 /* FirebaseDatabase */,
+				D0F626792AE518CF00EFACA0 /* FirebaseFirestore */,
+				D0F6267B2AE518CF00EFACA0 /* FirebaseInAppMessaging-Beta */,
+				D0F6267D2AE518CF00EFACA0 /* FirebaseInAppMessagingSwift-Beta */,
+				D0F6267F2AE518CF00EFACA0 /* FirebaseStorage */,
+				D0F626822AE5191100EFACA0 /* TinyConstraints */,
+			);
+			productName = TwinkleApp;
+			productReference = D0F626412AE516EF00EFACA0 /* TwinkleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F626562AE516F100EFACA0 /* TwinkleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F6266E2AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleAppTests" */;
+			buildPhases = (
+				D0F626532AE516F100EFACA0 /* Sources */,
+				D0F626542AE516F100EFACA0 /* Frameworks */,
+				D0F626552AE516F100EFACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F626592AE516F100EFACA0 /* PBXTargetDependency */,
+			);
+			name = TwinkleAppTests;
+			productName = TwinkleAppTests;
+			productReference = D0F626572AE516F100EFACA0 /* TwinkleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0F626602AE516F100EFACA0 /* TwinkleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F626712AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleAppUITests" */;
+			buildPhases = (
+				D0F6265D2AE516F100EFACA0 /* Sources */,
+				D0F6265E2AE516F100EFACA0 /* Frameworks */,
+				D0F6265F2AE516F100EFACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F626632AE516F100EFACA0 /* PBXTargetDependency */,
+			);
+			name = TwinkleAppUITests;
+			productName = TwinkleAppUITests;
+			productReference = D0F626612AE516F100EFACA0 /* TwinkleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F626392AE516EF00EFACA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D0F626402AE516EF00EFACA0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D0F626562AE516F100EFACA0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D0F626402AE516EF00EFACA0;
+					};
+					D0F626602AE516F100EFACA0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D0F626402AE516EF00EFACA0;
+					};
+				};
+			};
+			buildConfigurationList = D0F6263C2AE516EF00EFACA0 /* Build configuration list for PBXProject "TwinkleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F626382AE516EF00EFACA0;
+			packageReferences = (
+				D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D0F626812AE5191100EFACA0 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
+			productRefGroup = D0F626422AE516EF00EFACA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F626402AE516EF00EFACA0 /* TwinkleApp */,
+				D0F626562AE516F100EFACA0 /* TwinkleAppTests */,
+				D0F626602AE516F100EFACA0 /* TwinkleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F6263F2AE516EF00EFACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F626512AE516F100EFACA0 /* LaunchScreen.storyboard in Resources */,
+				D0F6264E2AE516F100EFACA0 /* Assets.xcassets in Resources */,
+				D0F626872AE51F0200EFACA0 /* Readme.md in Resources */,
+				D0F6264C2AE516EF00EFACA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F626552AE516F100EFACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F6265F2AE516F100EFACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F6263D2AE516EF00EFACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F626492AE516EF00EFACA0 /* ViewController.swift in Sources */,
+				D0F626452AE516EF00EFACA0 /* AppDelegate.swift in Sources */,
+				D0F626892AE555B100EFACA0 /* LoginwithVC.swift in Sources */,
+				D0F626472AE516EF00EFACA0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F626532AE516F100EFACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F6265C2AE516F100EFACA0 /* TwinkleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F6265D2AE516F100EFACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F626662AE516F100EFACA0 /* TwinkleAppUITests.swift in Sources */,
+				D0F626682AE516F100EFACA0 /* TwinkleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F626592AE516F100EFACA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F626402AE516EF00EFACA0 /* TwinkleApp */;
+			targetProxy = D0F626582AE516F100EFACA0 /* PBXContainerItemProxy */;
+		};
+		D0F626632AE516F100EFACA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F626402AE516EF00EFACA0 /* TwinkleApp */;
+			targetProxy = D0F626622AE516F100EFACA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F6264A2AE516EF00EFACA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F6264B2AE516EF00EFACA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F6264F2AE516F100EFACA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F626502AE516F100EFACA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F626692AE516F100EFACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0F6266A2AE516F100EFACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F6266C2AE516F100EFACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinkleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0F6266D2AE516F100EFACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinkleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0F6266F2AE516F100EFACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwinkleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwinkleApp";
+			};
+			name = Debug;
+		};
+		D0F626702AE516F100EFACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwinkleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwinkleApp";
+			};
+			name = Release;
+		};
+		D0F626722AE516F100EFACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwinkleApp;
+			};
+			name = Debug;
+		};
+		D0F626732AE516F100EFACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MLS7NSP5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUI.TwinkleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwinkleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F6263C2AE516EF00EFACA0 /* Build configuration list for PBXProject "TwinkleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F626692AE516F100EFACA0 /* Debug */,
+				D0F6266A2AE516F100EFACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F6266B2AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F6266C2AE516F100EFACA0 /* Debug */,
+				D0F6266D2AE516F100EFACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F6266E2AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F6266F2AE516F100EFACA0 /* Debug */,
+				D0F626702AE516F100EFACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F626712AE516F100EFACA0 /* Build configuration list for PBXNativeTarget "TwinkleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F626722AE516F100EFACA0 /* Debug */,
+				D0F626732AE516F100EFACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+		D0F626812AE5191100EFACA0 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0F626752AE518CF00EFACA0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D0F626772AE518CF00EFACA0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D0F626792AE518CF00EFACA0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D0F6267B2AE518CF00EFACA0 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		D0F6267D2AE518CF00EFACA0 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		D0F6267F2AE518CF00EFACA0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626742AE518CF00EFACA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D0F626822AE5191100EFACA0 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0F626812AE5191100EFACA0 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0F626392AE516EF00EFACA0 /* Project object */;
+}
