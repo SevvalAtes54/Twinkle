@@ -11,13 +11,20 @@ import TinyConstraints
 class SurnameVC: UIViewController {
     
     let surnameTextField : UITextField = {
-        let name = UITextField()
-        name.placeholder = "  Enter your surname"
-        name.translatesAutoresizingMaskIntoConstraints = false
-        name.layer.cornerRadius = 14
-        return name
+        let surname = UITextField()
+        surname.placeholder = "  Enter your surname"
+        surname.attributedPlaceholder = NSAttributedString(string: "  Enter your surname" , attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
+        surname.translatesAutoresizingMaskIntoConstraints = false
+        surname.layer.cornerRadius = 14
+        surname.borderStyle = .none
+        return surname
     }()
-
+    
+    let labelQuestion : UITextView = {
+        let cons = UITextView()
+        cons.translatesAutoresizingMaskIntoConstraints = false
+        return cons
+    }()
 
     let nextButton : UIButton = {
         let cons = UIButton()
@@ -38,9 +45,20 @@ class SurnameVC: UIViewController {
         surnameTextField.topToSuperview(offset: 255)
         surnameTextField.trailingToSuperview(offset: 55)
         surnameTextField.centerXToSuperview()
-        surnameTextField.backgroundColor = .white
+       // surnameTextField.backgroundColor = .white
         surnameTextField.height(55)
         surnameTextField.width(200)
+        
+        view.addSubview(labelQuestion)
+        labelQuestion.topToSuperview(offset:120)
+        labelQuestion.text = "What is your surname?"
+        labelQuestion.leadingToSuperview(offset:55)
+        labelQuestion.trailingToSuperview(offset:55)
+        labelQuestion.font = .boldSystemFont(ofSize: 35)
+        labelQuestion.tintColor = .white
+        labelQuestion.width(140)
+        labelQuestion.height(100)
+        labelQuestion.backgroundColor = .clear
         
 
         view.addSubview(nextButton)
@@ -53,6 +71,15 @@ class SurnameVC: UIViewController {
     }
     
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        let bottomLine = CALayer()
+        bottomLine.frame = CGRect(x: 0.0, y: surnameTextField.frame.size.height - 1.0, width: surnameTextField.frame.size.width, height: 1.0)
+        bottomLine.backgroundColor = UIColor.black.cgColor
+        surnameTextField.layer.addSublayer(bottomLine)
+        surnameTextField.layer.masksToBounds = true
+    }
 
     
     @objc func nextButtonNext (){
