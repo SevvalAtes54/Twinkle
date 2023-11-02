@@ -83,10 +83,12 @@ class SurnameVC: UIViewController {
 
     
     @objc func nextButtonNext (){
-        let nextViewController = NameVC()
+        let nextViewController = AgeVC()
         nextViewController.modalPresentationStyle = .fullScreen
        self.present(nextViewController, animated: true)
        
     }
+    
+    
 
 }
